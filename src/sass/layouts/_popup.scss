@@ -1,0 +1,194 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 41, 41, 0.6);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.popup._open {
+  opacity: 1;
+  visibility: visible;
+}
+
+//для формы обратной связи
+.popup._active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.popup-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 10%;
+
+  @include media-laptop{
+    padding: 263px 69px;
+  }
+
+  @include media-tablet{
+    padding: 221px 40px;
+  }
+}
+
+.popup-content {
+  position: relative;
+  background: #fafafa;
+  color: #000000;
+  max-width: 900px;
+  height: 500px;
+  display: flex;
+  column-gap: 30px;
+  border-radius: 9px;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+
+  @include media-laptop{
+    max-width: 630px;
+    height: 350px;
+    display: flex;
+    column-gap: 11px;
+  }
+
+  @include media-tablet{
+    max-width: 240px;
+        height: 100%;
+        column-gap: 0px;
+  }
+}
+
+.popup._open .popup-content {
+  transform: scale(1);
+}
+
+//для формы обратной связи
+.popup._active .form-content {
+  transform: scale(1);
+}
+
+.popup-img {
+  height: 80%;
+  border-radius: 9px;
+  margin: auto;
+  
+}
+
+.popup-description {
+  padding-top: 50px;
+  padding-right: 20px;
+
+  @include media-laptop{
+     padding-top: 10px;
+        padding-right: 8px;
+  }
+}
+
+.popup-title {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.popup-subtitle {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  margin-top: 10px;
+}
+.popup-text {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  @include media-laptop{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ }
+
+.popup-item::before {
+  color:#F1CDB3;
+  content: "•";
+  padding-right: 10px;
+}
+.popup-item {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin-top: 11px;
+
+  @include media-laptop{
+    margin-top: 5px;
+}
+}
+
+.popup-item span {
+  font-family: 'Georgia';
+  font-style: bolt;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+}
+
+.popup-closer {
+  position: absolute;
+  text-decoration: none;
+  width: 52px;
+  height: 52px;
+  top: -52px;
+  right: -40px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+   transition: all 0.5s ease-in-out;
+
+   @include media-tablet{
+    right: -30px;
+  }
+}
+.popup-closer:hover {
+  border: 2px solid #fddcc4;
+  background-color: #fddcc4;
+}
+
+@include media-tablet{
+.popup-img {
+  height: 0px;
+  display: none;
+}
+.popup-description {
+  padding: 10px;
+}
+.popup-title {
+  text-align: center;
+}
+.popup-subtitle {
+  text-align: center;
+}
+.popup-text {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+}
