@@ -54,6 +54,20 @@ form *{
   @include font($height: 1.3rem, $size: 3.5rem);
   font-style: normal;
   margin: 30px 0px 30px 0px;
+  
+  @include media-mobile{
+  font-size: 2rem;
+        }
+
+        @include media-tablet{
+          font-size: 2rem;
+                }
+                @include media-mobilesmall{
+                  font-size: 2rem;
+                        }
+
+
+
 }
 
 .form__input{
