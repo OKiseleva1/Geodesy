@@ -85,9 +85,10 @@
     $mail->IsHTML(true); /* Разрешаем работу с HTML */
 
     
-$mail->addAddress("info@korzina-konditsioner.ru"); /* Здесь введите Email, куда отправлять */
+$mail->addAddress("info@geodesy-info.online"); /* Здесь введите Email, куда отправлять */
+$mail->addAddress("geodesy-info@mail.ru");
 //от кого письмо
-$mail->setFrom("info@korzina-konditsioner.ru");
+$mail->setFrom("info@geodesy-info.online");
 //тема письма
 $mail->Subject = "Заявка с формы"; /* Тема письма */
 // $mail->MsgHTML($body);

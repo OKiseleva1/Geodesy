@@ -897,7 +897,7 @@ header {
 }
 
 .popup-description {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-right: 20px;
 }
 @media (max-width: 1200px) {
@@ -914,6 +914,7 @@ header {
   font-size: 35px;
   line-height: 130%;
   letter-spacing: 0.06em;
+  margin: 0;
 }
 
 .popup-subtitle {
@@ -933,8 +934,8 @@ header {
   font-size: 15px;
   line-height: 110%;
   letter-spacing: 0.06em;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 @media (max-width: 1200px) {
   .popup-text {
