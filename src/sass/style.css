@@ -382,6 +382,9 @@ header {
   }
 }
 
+.about__image {
+  margin: auto;
+}
 @media (max-width: 1200px) {
   .about__image {
     display: block;

@@ -1,15 +1,14 @@
 [
   {   "id": 0,
-      "name": "Оптический нивелир",
+      "name": "Оптический нивелир RGK N-32",
       "img": "src/assets/equipment/nivelir.png",
-      "type": "RGK N-32",
       "accuracy": "1.5 мм",
       "description": "Легкий, компактный и надежный оптический нивелир RGK N-32, позволяет максимально повысить качество и эффективность работ в поле и на строительной площадке. Эта модель имеет самое большое увеличение в этой серии приборов – 32 крат, и позволяет осуществлять нивелирование с точностью 1,5 миллиметра на один километр двойного хода. Высококачественная оптика прибора имеет прямое изображение, благодаря чему обеспечивается комфорт эксплуатации и снижается нагрузка на зрение.",
       "size": "130 x 215 x 135 мм",
       "weight": ["1.7 кг"]
     },
     {"id": 1,
-      "name": "Приемник",
+      "name": "Приемник EFIX С5",
       "img": "src/assets/equipment/efix.png",
       "type": "EFIX С5",
       "accuracy": "-",
@@ -18,7 +17,7 @@
       "weight": ["0,86 кг"]
     },
     {"id": 2,
-      "name": "Тахеометр",
+      "name": "Тахеометр Nikon Xs Optpl (5″)",
       "img": "src/assets/equipment/nikon.png",
       "type": "Nikon Xs Optpl (5″)",
       "accuracy": "1″, 2″, 3″, 5″",
@@ -27,7 +26,7 @@
       "weight": ["-"]
     },
     {"id": 3,
-      "name": "Сканер Лазерный Наземный",
+      "name": "Сканер лазерный наземный Trimble Tx8",
       "img": "src/assets/equipment/screen.png",
       "type": "Trimble Tx8",
       "accuracy": "-",
@@ -36,7 +35,7 @@
       "weight": ["-"]
     },
     {"id": 4,
-      "name": "RTK-Планшет",
+      "name": "RTK-Планшет PrinCe LT700H Tablet",
       "img": "src/assets/equipment/tablet.png",
       "type": "PrinCe LT700H Tablet",
       "accuracy": "-",
@@ -45,7 +44,7 @@
       "weight": ["-"]
       },
     { "id": 5,    
-      "name": "Электронный тахеометр",
+      "name": "Электронный тахеометр SOUTH NTS-382R10",
       "img": "src/assets/equipment/taheograf.png",
       "type": "SOUTH NTS-382R10",
       "accuracy": "±(3+2ppmхD) мм",
@@ -64,7 +63,7 @@
       "weight": ["-"]
     },
     {"id": 7,
-      "name": "TOPCON RL-H5A",
+      "name": "Лазерный построитель TOPCON RL-H5A",
       "img": "src/assets/equipment/topcon.png",
       "type": "ЛАЗЕРНЫЙ ПОСТРОИТЕЛЬ ПЛОСКОСТИ",
       "accuracy": "5мм на 100м",
@@ -73,7 +72,7 @@
       "weight": ["20-25кг"]
     },
     {"id": 8,
-      "name": "RIDGID SR-20 SEEKTECH",
+      "name": "Трассопоисковый приемник RIDGID SR-20 SEEKTECH",
       "img": "src/assets/equipment/ridgid.png",
       "type": "ТРАССОПОИСКОВЫЙ ПРИЕМНИК",
       "accuracy": "5% от глубины",

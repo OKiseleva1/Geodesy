@@ -44,6 +44,8 @@
 }
 
 .about__image {
+
+  margin: auto;
     @include media-laptop {
       display: block;
       margin: 0 auto;

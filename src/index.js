@@ -81,7 +81,7 @@ const ITEM_RIGHT = document.querySelector("#item-right");
                     <img src="${equipments[path].img}" alt="${equipments[path].name}" class="popup-img">
                     <div class="popup-description">
                         <h2 class="popup-title">${equipments[path].name}</h2>
-                        <h3 class="popup-subtitle">${equipments[path].type}</h3>
+                        
                         <p class="popup-text">${equipments[path].description}</p>
                         <ul class="popup-list">
                             <li class="popup-item"><span>Вес: </span>${equipments[path].weight}</li>
